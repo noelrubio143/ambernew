@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 2,
+  "configVersion": 3,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "2",
+  "Version": "3",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -38,14 +38,14 @@
   "options": {
     "enableSSH": true,
     "enableXray": true,
-    "enablePayloads": true,
+    "enablePayloads": false,
     "requireActivation": false,
     "authMode": "none",
     "supportUrl": "",
     "telegramUrl": "",
     "updateUrl": "",
     "privacyUrl": "",
-    "defaultDns": "1.1.1.1,8.8.8.8",
+    "defaultDns": "8.8.8.8,8.8.4.4",
     "offlineCache": true,
     "sanitizedLogs": true
   },
@@ -61,22 +61,11 @@
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "rubio",
-      "PASS": "12011990"
+      "PASS": "12011990",
+      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
     }
   ],
-  "Networks": [
-    {
-      "Name": "Main Payload",
-      "FLAG": "Todas",
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "[host]",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "direct",
-      "info": "direct"
-    }
-  ],
+  "Networks": [],
   "Udp": [
     {
       "Porta": "7300"
@@ -156,10 +145,10 @@
   ],
   "XrayDns": {
     "Enabled": true,
-    "ServersCsv": "1.1.1.1,8.8.8.8",
+    "ServersCsv": "8.8.8.8,8.8.4.4",
     "Servers": [
-      "1.1.1.1",
-      "8.8.8.8"
+      "8.8.8.8",
+      "8.8.4.4"
     ],
     "PreferIPv4": true,
     "BlockIPv6": true,
@@ -176,7 +165,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 2,
+    "version": 3,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -215,28 +204,7 @@
       "FLAG": "Globe"
     }
   ],
-  "payloads": [
-    {
-      "id": "pay_1",
-      "name": "Main Payload",
-      "value": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "operator": "Todas",
-      "networkType": "WS",
-      "httpMethod": "GET",
-      "hostHeader": "[host]",
-      "sni": "",
-      "proxyHost": "",
-      "proxyPort": 80,
-      "mode": "direct",
-      "active": true,
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "[host]",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "direct"
-    }
-  ],
+  "payloads": [],
   "xrayProfiles": [
     {
       "id": "xr_a9c54fdbd4",

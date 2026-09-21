@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 5,
+  "configVersion": 6,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "5",
+  "Version": "6",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -65,19 +65,7 @@
       "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
     }
   ],
-  "Networks": [
-    {
-      "Name": "Payload",
-      "FLAG": "Todas",
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "direct",
-      "info": "direct"
-    }
-  ],
+  "Networks": [],
   "Udp": [
     {
       "Porta": "7300"
@@ -177,7 +165,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 5,
+    "version": 6,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -216,28 +204,7 @@
       "FLAG": "Globe"
     }
   ],
-  "payloads": [
-    {
-      "id": "pay_2929ca63f4",
-      "name": "Payload",
-      "value": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "operator": "Todas",
-      "networkType": "WS",
-      "httpMethod": "GET",
-      "hostHeader": "",
-      "sni": "",
-      "proxyHost": "",
-      "proxyPort": 80,
-      "mode": "direct",
-      "active": true,
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "direct"
-    }
-  ],
+  "payloads": [],
   "xrayProfiles": [
     {
       "id": "xr_a9c54fdbd4",

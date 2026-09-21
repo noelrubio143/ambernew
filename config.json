@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 5,
+  "configVersion": 6,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "5",
+  "Version": "6",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -176,7 +176,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 5,
+    "version": 6,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -222,7 +222,7 @@
       "value": "GET \/ HTTP\/1.1[crlf]Host: amber143.dpdns.org[crlf]Upgrade: websocket[crlf][crlf]",
       "operator": "Todas",
       "networkType": "WS",
-      "httpMethod": "GET",
+      "httpMethod": "CONNECT",
       "hostHeader": "",
       "sni": "",
       "proxyHost": "",

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 6,
+  "configVersion": 7,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "6",
+  "Version": "7",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -176,7 +176,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 6,
+    "version": 7,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -199,7 +199,7 @@
       "udpPort": 7300,
       "dnsPrimary": "1.1.1.1",
       "dnsSecondary": "8.8.8.8",
-      "country": "PH",
+      "country": "BR",
       "operator": "Todas",
       "category": "Principal",
       "priority": 1,

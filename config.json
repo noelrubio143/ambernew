@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 7,
+  "configVersion": 8,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "7",
+  "Version": "8",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -64,19 +64,7 @@
       "PASS": "12011990"
     }
   ],
-  "Networks": [
-    {
-      "Name": "Payload",
-      "FLAG": "Todas",
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: amber143.dpdns.org[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "tlsws",
-      "info": "tlsws"
-    }
-  ],
+  "Networks": [],
   "Udp": [
     {
       "Porta": "7300"
@@ -176,7 +164,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 7,
+    "version": 8,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -227,14 +215,14 @@
       "sni": "",
       "proxyHost": "",
       "proxyPort": 80,
-      "mode": "tlsws",
-      "active": true,
+      "mode": "direct",
+      "active": false,
       "Payload": "GET \/ HTTP\/1.1[crlf]Host: amber143.dpdns.org[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "tlsws"
+      "Info": "direct"
     }
   ],
   "xrayProfiles": [

@@ -1,8 +1,8 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 6,
-  "appName": "VB INJECTOR LITE",
+  "configVersion": 7,
+  "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
   "minLiteVersion": 1,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "6",
+  "Version": "7",
   "ReleaseNotes": "WELCOM TO AMBER V2RAY",
   "Sms": "WELCOM TO AMBER V2RAY",
   "UrlUpdate": "",
@@ -46,7 +46,7 @@
     "updateUrl": "",
     "privacyUrl": "",
     "defaultDns": "1.1.1.1,8.8.8.8",
-    "offlineCache": false,
+    "offlineCache": true,
     "sanitizedLogs": true
   },
   "Servers": [],
@@ -197,8 +197,8 @@
     "DebugMode": false
   },
   "OfflinePack": {
-    "enabled": false,
-    "version": 6,
+    "enabled": true,
+    "version": 7,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true

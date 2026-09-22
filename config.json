@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 9,
+  "configVersion": 10,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "9",
+  "Version": "10",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -55,6 +55,7 @@
       "Id": 1,
       "Name": "MYSERVER PH",
       "TYPE": "tlsws",
+      "protocol": "DIRECT_PAYLOAD_WS",
       "FLAG": "Globe",
       "ServerIP": "www.mypocketdoctor.com",
       "CheckUser": "",
@@ -62,6 +63,10 @@
       "SSLPort": "443",
       "USER": "rubio",
       "PASS": "12011990",
+      "proxyHost": "",
+      "ProxyIP": "",
+      "proxyPort": 80,
+      "ProxyPort": 80,
       "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
     }
   ],
@@ -165,7 +170,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 9,
+    "version": 10,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -176,10 +181,10 @@
       "name": "MYSERVER PH",
       "host": "www.mypocketdoctor.com",
       "port": 80,
-      "method": "SSH Direct + Payload",
+      "method": "SSH Direct + Payload WS",
       "username": "rubio",
       "password": "12011990",
-      "protocol": "DIRECT_PAYLOAD",
+      "protocol": "DIRECT_PAYLOAD_WS",
       "sslPort": 443,
       "proxyHost": "",
       "proxyPort": 80,

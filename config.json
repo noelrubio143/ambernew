@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 22,
+  "configVersion": 2,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "22",
+  "Version": "2",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -36,7 +36,7 @@
     "darkMode": true
   },
   "options": {
-    "enableSSH": true,
+    "enableSSH": false,
     "enableXray": true,
     "enablePayloads": false,
     "requireActivation": false,
@@ -49,42 +49,9 @@
     "offlineCache": true,
     "sanitizedLogs": true
   },
-  "Servers": [
-    {
-      "id": 1,
-      "Id": 1,
-      "Name": "MY PH",
-      "TYPE": "tlsws",
-      "protocol": "DIRECT_PAYLOAD_WS",
-      "FLAG": "TNT",
-      "ServerIP": "www.mypocketdoctor.com",
-      "CheckUser": "",
-      "ServerPort": "80",
-      "SSLPort": "443",
-      "USER": "rubio",
-      "PASS": "12011990",
-      "proxyHost": "www.mypocketdoctor.com",
-      "ProxyIP": "www.mypocketdoctor.com",
-      "proxyPort": 80,
-      "ProxyPort": 80,
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
-    }
-  ],
+  "Servers": [],
   "Networks": [],
-  "Udp": [
-    {
-      "Porta": "7300"
-    }
-  ],
-  "ssh_auth": {
-    "mode": "panel_credentials",
-    "allow_user_edit": false,
-    "allowUserEdit": false,
-    "save_locally": true,
-    "saveLocally": true,
-    "username": "rubio",
-    "password": "12011990"
-  },
+  "Udp": [],
   "XrayProfiles": [
     {
       "id": 1,
@@ -170,51 +137,16 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 22,
+    "version": 2,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
   },
-  "servers": [
-    {
-      "id": "1",
-      "name": "MY PH",
-      "host": "www.mypocketdoctor.com",
-      "port": 80,
-      "method": "SSH Direct + Payload WS",
-      "username": "rubio",
-      "password": "12011990",
-      "protocol": "DIRECT_PAYLOAD_WS",
-      "sslPort": 443,
-      "proxyHost": "www.mypocketdoctor.com",
-      "proxyPort": 80,
-      "sni": "",
-      "tls": true,
-      "udpPort": 7300,
-      "dnsPrimary": "8.8.8.8",
-      "dnsSecondary": "8.8.4.4",
-      "country": "PH",
-      "operator": "TNT",
-      "category": "Principal",
-      "priority": 1,
-      "active": true,
-      "checkUserUrl": "",
-      "ServerIP": "www.mypocketdoctor.com",
-      "ServerPort": "80",
-      "SSLPort": "443",
-      "USER": "rubio",
-      "PASS": "12011990",
-      "CheckUser": "",
-      "TYPE": "tlsws",
-      "FLAG": "TNT",
-      "payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
-    }
-  ],
+  "servers": [],
   "payloads": [],
   "xrayProfiles": [
     {
-      "id": "1",
+      "id": "xr_5bd9e007a3",
       "name": "ber",
       "protocol": "vless",
       "host": "noel1201.dpdns.org",

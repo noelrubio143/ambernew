@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 20,
+  "configVersion": 21,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "20",
+  "Version": "21",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -54,8 +54,8 @@
       "id": 1,
       "Id": 1,
       "Name": "MY PH",
-      "TYPE": "tlsws",
-      "protocol": "DIRECT_PAYLOAD_WS",
+      "TYPE": "direct",
+      "protocol": "DIRECT",
       "FLAG": "Todas",
       "ServerIP": "www.mypocketdoctor.com",
       "CheckUser": "",
@@ -67,7 +67,7 @@
       "ProxyIP": "",
       "proxyPort": 80,
       "ProxyPort": 80,
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
+      "Payload": ""
     }
   ],
   "Networks": [],
@@ -170,7 +170,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 20,
+    "version": 21,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -181,10 +181,10 @@
       "name": "MY PH",
       "host": "www.mypocketdoctor.com",
       "port": 80,
-      "method": "SSH Direct + Payload WS",
+      "method": "SSH Direct",
       "username": "rubio",
       "password": "12011990",
-      "protocol": "DIRECT_PAYLOAD_WS",
+      "protocol": "DIRECT",
       "sslPort": 443,
       "proxyHost": "",
       "proxyPort": 80,
@@ -205,10 +205,10 @@
       "USER": "rubio",
       "PASS": "12011990",
       "CheckUser": "",
-      "TYPE": "tlsws",
+      "TYPE": "direct",
       "FLAG": "Todas",
-      "payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
-      "Payload": "GET \/ HTTP\/1.1[crlf]Host: www.mypocketdoctor.com[crlf][crlf][crlf]GET \/ HTTP\/1.1[crlf]Host: noel1201.dpdns.org[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]"
+      "payload": "",
+      "Payload": ""
     }
   ],
   "payloads": [],

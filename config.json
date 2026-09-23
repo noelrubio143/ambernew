@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 27,
+  "configVersion": 28,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "27",
+  "Version": "28",
   "ReleaseNotes": "WELCOME",
   "Sms": "WELCOME",
   "UrlUpdate": "",
@@ -197,7 +197,7 @@
       "protocol": "trojan",
       "address": "47.80.83.157",
       "server": "47.80.83.157",
-      "port": 443,
+      "port": 80,
       "uuid": "",
       "id_uuid": "",
       "flow": "",
@@ -277,7 +277,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 27,
+    "version": 28,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -396,13 +396,13 @@
       "enabled": true
     },
     {
-      "id": "xr_be0fd91fea",
+      "id": "xr_b312dcf4ce",
       "name": "NO LOAD GTM PH1",
       "protocol": "trojan",
       "host": "47.80.83.157",
       "address": "47.80.83.157",
       "server": "47.80.83.157",
-      "port": 443,
+      "port": 80,
       "uuid": "",
       "password": "c6cc973c-90aa-4d08-8f38-b0879f0f6e18",
       "encryption": "none",

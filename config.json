@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 13,
+  "configVersion": 14,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "13",
+  "Version": "14",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -109,9 +109,9 @@
       "ns": "ns.sgxray.noel1201.dpdns.org",
       "NS": "ns.sgxray.noel1201.dpdns.org",
       "slipstreamNs": "ns.sgxray.noel1201.dpdns.org",
-      "nsResolver": "8.8.8.8",
-      "resolver": "8.8.8.8",
-      "slipstreamResolver": "8.8.8.8",
+      "nsResolver": "",
+      "resolver": "",
+      "slipstreamResolver": "",
       "uuid_mode": "panel",
       "uuidMode": "panel",
       "ask_uuid_on_connect": false,
@@ -143,7 +143,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 13,
+    "version": 14,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -200,9 +200,9 @@
       "ns": "ns.sgxray.noel1201.dpdns.org",
       "NS": "ns.sgxray.noel1201.dpdns.org",
       "slipstreamNs": "ns.sgxray.noel1201.dpdns.org",
-      "nsResolver": "8.8.8.8",
-      "resolver": "8.8.8.8",
-      "slipstreamResolver": "8.8.8.8",
+      "nsResolver": "",
+      "resolver": "",
+      "slipstreamResolver": "",
       "active": true,
       "enabled": true
     }

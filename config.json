@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 7,
+  "configVersion": 8,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "7",
+  "Version": "8",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -130,7 +130,7 @@
       "protocol": "vless",
       "address": "sg.noel1201.dpdns.prg",
       "server": "sg.noel1201.dpdns.prg",
-      "port": 80,
+      "port": 443,
       "uuid": "07a5bcff-5141-48d6-9b5e-2194a48f3fcb",
       "id_uuid": "07a5bcff-5141-48d6-9b5e-2194a48f3fcb",
       "flow": "",
@@ -210,7 +210,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 7,
+    "version": 8,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -274,13 +274,13 @@
       "enabled": true
     },
     {
-      "id": "xr_c2d537ec19",
+      "id": "xr_76a6af3bf4",
       "name": "as",
       "protocol": "vless",
       "host": "sg.noel1201.dpdns.prg",
       "address": "sg.noel1201.dpdns.prg",
       "server": "sg.noel1201.dpdns.prg",
-      "port": 80,
+      "port": 443,
       "uuid": "07a5bcff-5141-48d6-9b5e-2194a48f3fcb",
       "password": "",
       "encryption": "none",

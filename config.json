@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 30,
+  "configVersion": 31,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "30",
+  "Version": "31",
   "ReleaseNotes": "WELCOME",
   "Sms": "WELCOME",
   "UrlUpdate": "",
@@ -202,7 +202,7 @@
       "id_uuid": "",
       "flow": "",
       "encryption": "none",
-      "password": "a463dfb8-1fb7-41d3-8c63-3798d227d559",
+      "password": "271c0a51-697b-4686-aa9e-c19fb4c46c9e",
       "network": "ws",
       "transport": "ws",
       "type": "ws",
@@ -277,7 +277,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 30,
+    "version": 31,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -396,7 +396,7 @@
       "enabled": true
     },
     {
-      "id": "xr_060f2d58b8",
+      "id": "xr_5e2cdedc48",
       "name": "ph1noloadgtm",
       "protocol": "trojan",
       "host": "47.80.83.157",
@@ -404,7 +404,7 @@
       "server": "47.80.83.157",
       "port": 443,
       "uuid": "",
-      "password": "a463dfb8-1fb7-41d3-8c63-3798d227d559",
+      "password": "271c0a51-697b-4686-aa9e-c19fb4c46c9e",
       "encryption": "none",
       "security": "none",
       "network": "ws",

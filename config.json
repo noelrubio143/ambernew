@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 18,
+  "configVersion": 19,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "18",
+  "Version": "19",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -109,9 +109,9 @@
       "ns": "ns.sgxray.noel1201.dpdns.org",
       "NS": "ns.sgxray.noel1201.dpdns.org",
       "slipstreamNs": "ns.sgxray.noel1201.dpdns.org",
-      "nsResolver": "8.8.8.8",
-      "resolver": "8.8.8.8",
-      "slipstreamResolver": "8.8.8.8",
+      "nsResolver": "[2001:4860:4860::8888]",
+      "resolver": "[2001:4860:4860::8888]",
+      "slipstreamResolver": "[2001:4860:4860::8888]",
       "uuid_mode": "panel",
       "uuidMode": "panel",
       "ask_uuid_on_connect": false,
@@ -143,7 +143,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 18,
+    "version": 19,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -152,7 +152,7 @@
   "payloads": [],
   "xrayProfiles": [
     {
-      "id": "xr_06c8a33db1",
+      "id": "1",
       "name": "add",
       "protocol": "vless",
       "host": "47.84.135.103",
@@ -200,9 +200,9 @@
       "ns": "ns.sgxray.noel1201.dpdns.org",
       "NS": "ns.sgxray.noel1201.dpdns.org",
       "slipstreamNs": "ns.sgxray.noel1201.dpdns.org",
-      "nsResolver": "8.8.8.8",
-      "resolver": "8.8.8.8",
-      "slipstreamResolver": "8.8.8.8",
+      "nsResolver": "[2001:4860:4860::8888]",
+      "resolver": "[2001:4860:4860::8888]",
+      "slipstreamResolver": "[2001:4860:4860::8888]",
       "active": true,
       "enabled": true
     }

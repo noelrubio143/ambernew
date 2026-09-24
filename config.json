@@ -1,17 +1,17 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 35,
+  "configVersion": 36,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
   "minLiteVersion": 1,
   "maintenanceMessage": "App under maintenance.",
   "forceUpdateMessage": "Mandatory update available.",
-  "@VEM_BRABO": "@VEM_BRABO",
-  "OwnerGuard": "@VEM_BRABO",
-  "ConfigOwner": "@VEM_BRABO",
-  "Version": "35",
+  "@VEM_BRABO": "AMBER V2RAY",
+  "OwnerGuard": "AMBER V2RAY",
+  "ConfigOwner": "AMBER V2RAY",
+  "Version": "36",
   "ReleaseNotes": "WELCOME",
   "Sms": "WELCOME",
   "UrlUpdate": "",
@@ -813,8 +813,8 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 35,
-    "owner": "@VEM_BRABO",
+    "version": 36,
+    "owner": "AMBER V2RAY",
     "allow_import": true,
     "include_in_apk": true
   },
@@ -822,7 +822,7 @@
   "payloads": [],
   "xrayProfiles": [
     {
-      "id": "xr_d537e6c099",
+      "id": "1",
       "name": "sgnoloadgtm",
       "protocol": "trojan",
       "host": "47.84.135.103",
@@ -877,7 +877,7 @@
       "enabled": true
     },
     {
-      "id": "xr_5e2cdedc48",
+      "id": "2",
       "name": "ph1noloadgtm",
       "protocol": "trojan",
       "host": "47.80.83.157",
@@ -932,7 +932,7 @@
       "enabled": true
     },
     {
-      "id": "xr_8c0061dcf2",
+      "id": "3",
       "name": "ph2noloadgtm",
       "protocol": "trojan",
       "host": "8.220.190.23",
@@ -987,7 +987,7 @@
       "enabled": true
     },
     {
-      "id": "xr_59b4189eea",
+      "id": "4",
       "name": "UNLISOCIAL DITO PH1",
       "protocol": "vless",
       "host": "api24-normal.tiktokv.com",
@@ -1042,7 +1042,7 @@
       "enabled": true
     },
     {
-      "id": "xr_a4230c11e6",
+      "id": "5",
       "name": "DATA MAX 129,149,299 DITO PH1",
       "protocol": "vless",
       "host": "api24-normal.tiktokv.com",
@@ -1097,7 +1097,7 @@
       "enabled": true
     },
     {
-      "id": "xr_d1bbbd4be3",
+      "id": "6",
       "name": "UNLIGO99 TIKTOK GLOBE PH1",
       "protocol": "vless",
       "host": "api24-normal.tiktokv.com",
@@ -1152,7 +1152,7 @@
       "enabled": true
     },
     {
-      "id": "xr_0e65d32cc0",
+      "id": "7",
       "name": "POWER ALL TIKTOK SMART PH1",
       "protocol": "vless",
       "host": "api24-normal.tiktokv.com",
@@ -1207,7 +1207,7 @@
       "enabled": true
     },
     {
-      "id": "xr_5a44256128",
+      "id": "8",
       "name": "SAYA  ALL TIKTOK TNT PH1",
       "protocol": "vless",
       "host": "api24-normal.tiktokv.com",
@@ -1262,7 +1262,7 @@
       "enabled": true
     },
     {
-      "id": "xr_d497fdf31b",
+      "id": "9",
       "name": "SAYA  ALL ML TNT PH1",
       "protocol": "vless",
       "host": "noel1201.dpdns.org",
@@ -1317,7 +1317,7 @@
       "enabled": true
     },
     {
-      "id": "xr_9c1e6f77df",
+      "id": "10",
       "name": "ML BYPASS PH1",
       "protocol": "vless",
       "host": "noel1201.dpdns.org",
@@ -1372,7 +1372,7 @@
       "enabled": true
     },
     {
-      "id": "xr_589d209a55",
+      "id": "11",
       "name": "UNLIDATA BYPASS PH1",
       "protocol": "vless",
       "host": "noel1201.dpdns.org",

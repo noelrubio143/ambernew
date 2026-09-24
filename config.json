@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 39,
+  "configVersion": 40,
   "appName": "AMBER V2RAY",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "AMBER V2RAY",
   "OwnerGuard": "AMBER V2RAY",
   "ConfigOwner": "AMBER V2RAY",
-  "Version": "39",
+  "Version": "40",
   "ReleaseNotes": "WELCOME",
   "Sms": "WELCOME",
   "UrlUpdate": "",
@@ -813,7 +813,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 39,
+    "version": 40,
     "owner": "AMBER V2RAY",
     "allow_import": true,
     "include_in_apk": true
@@ -1435,7 +1435,7 @@
       "address": "ph2.noel1201.dpdns.org",
       "server": "ph2.noel1201.dpdns.org",
       "host": "ph2.noel1201.dpdns.org",
-      "port": 22,
+      "port": 53,
       "username": "rubio",
       "user": "rubio",
       "password": "12011990",
